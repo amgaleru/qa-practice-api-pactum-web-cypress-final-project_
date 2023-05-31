@@ -1,0 +1,24 @@
+{
+  "name": "qa-practice-api-pactum-web-cypress-final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-api": "npx mocha api_tests --timeout 10000",
+    "cy:open": "npx cypress open",
+    "cy:chrome:headed": "npx cypress run --browser chrome --headed",
+    "cy:chrome:headless": "npx cypress run --browser chrome",
+    "cy:firefox:headed": "npx cypress run --browser firefox --headed",
+    "cy:cloud": "npx cypress run browser chrome --record --key 0a3f0d87-2b24-4f5a-859c-d9700fa09206"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.13.0",
+    "mocha": "^10.2.0",
+    "npx": "^10.2.2",
+    "pactum": "^3.4.1"
+  }
+}
